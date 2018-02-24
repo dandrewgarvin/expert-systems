@@ -1,0 +1,40 @@
+.About {
+    text-align: center;
+    color: #333;
+    font-family: 'Open sans';
+    .categories {
+        width: 70%;
+        margin: auto;
+        margin-top: 30px;
+        border: 1px solid #333;
+        .category {
+            background: lightblue;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font: {
+                size: 20px;
+            }
+        }
+    }
+    .expanded {
+        .questions {
+            margin: auto;
+            padding: 30px;
+            height: auto;
+        }
+        .question {
+            text-align: left;
+            .question_name {
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            .question_answer {
+                margin: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.Landing {
+    font-family: 'Oxygen';
+  .hero_label {
+      text-align: center;
+      font-size: 46px;
+      margin-top: 24px;
+  }
+  hr {
+      width: 55%;
+      margin: 15px auto;
+  }
+  .copy {
+      font-size: 16px;
+      vertical-align: top;
+  }
+  main {
+      display: flex;
+      justify-content: center;
+  }
+  .hero_left {
+      margin: 10px;
+  }
+  .hero_right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  .hero_statement {
+      width: 100%;
+      text-align: center;
+      font-size: 24px;
+      strong {
+         font-weight: bold; 
+      }
+  }
+  p {
+      margin-top: -200px;
+      width: 60%;
+  }
+  .hero_image {
+      height: 400px;
+      position: relative;
+  }
+}
